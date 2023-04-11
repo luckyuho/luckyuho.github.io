@@ -57,6 +57,7 @@ const Nav = () => {
             <li>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/yu-ho-tseng-859076164/"
                 className="social-icon-link bi-linkedin"
               ></a>
@@ -65,6 +66,7 @@ const Nav = () => {
             <li>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/luckyuho"
                 className="social-icon-link bi-github"
               ></a>

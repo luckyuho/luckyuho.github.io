@@ -14,6 +14,7 @@ const Projects = () => {
             <div className="news-thumb">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/luckyuho/EthereumProject/tree/main/kickstart#readme"
                 className="news-image-hover news-image-hover-warning"
               >
@@ -34,6 +35,7 @@ const Projects = () => {
                 <p className="text-color">
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/luckyuho/EthereumProject/tree/main/kickstart#readme"
                     className="news-image-hover news-image-hover-warning text-primary"
                   >
@@ -53,6 +55,7 @@ const Projects = () => {
             <div className="news-thumb">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/luckyuho/EthereumProject/tree/main/lottery-react#readme"
                 className="news-image-hover news-image-hover-warning"
               >
@@ -73,6 +76,7 @@ const Projects = () => {
                 <p className="text-color">
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/luckyuho/EthereumProject/tree/main/lottery-react#readme"
                     className="news-image-hover news-image-hover-warning text-primary"
                   >
@@ -92,6 +96,7 @@ const Projects = () => {
             <div className="news-thumb">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://hahow.in/creations/622a0586499fda0007fdee42"
                 className="news-image-hover news-image-hover-warning"
               >
@@ -112,6 +117,7 @@ const Projects = () => {
                 <p className="text-color">
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://hahow.in/creations/622a0586499fda0007fdee42"
                     className="news-image-hover news-image-hover-warning text-primary"
                   >
@@ -149,6 +155,7 @@ const Projects = () => {
                   <a
                     href="https://themewagon.com/themes/nomad-force-free-bootstrap-5-html5-landing-page-template/"
                     target="_blank"
+                    rel="noreferrer"
                     className="text-success"
                   >
                     Nomad Force 2021
@@ -177,6 +184,7 @@ const Projects = () => {
             <div className="news-thumb">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/luckyuho/UdemyWebCourseProject/tree/main/Project7_MERN#readme"
                 className="news-image-hover news-image-hover-warning"
               >
@@ -197,6 +205,7 @@ const Projects = () => {
                 <p className="text-color">
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/luckyuho/UdemyWebCourseProject/tree/main/Project7_MERN#readme"
                     className="news-image-hover news-image-hover-warning text-primary"
                   >
@@ -216,7 +225,8 @@ const Projects = () => {
             <div className="news-thumb">
               <a
                 target="_blank"
-                href="/projects/photowebsite"
+                rel="noreferrer"
+                href="https://luckyuho.github.io/photo-website"
                 className="news-image-hover news-image-hover-warning"
               >
                 <img
@@ -237,7 +247,8 @@ const Projects = () => {
                 <p className="text-color">
                   <a
                     target="_blank"
-                    href="/projects/photowebsite"
+                    rel="noreferrer"
+                    href="https://luckyuho.github.io/photo-website"
                     className="news-image-hover news-image-hover-warning text-success"
                   >
                     看看作品
@@ -256,7 +267,8 @@ const Projects = () => {
             <div className="news-thumb">
               <a
                 target="_blank"
-                href="/projects/todolist"
+                rel="noreferrer"
+                href="https://luckyuho.github.io/todo-list"
                 className="news-image-hover news-image-hover-warning"
               >
                 <img
@@ -278,7 +290,8 @@ const Projects = () => {
                 <p className="text-color">
                   <a
                     target="_blank"
-                    href="/projects/todolist"
+                    rel="noreferrer"
+                    href="https://luckyuho.github.io/todo-list"
                     className="news-image-hover news-image-hover-warning text-success"
                   >
                     看看作品
@@ -297,7 +310,8 @@ const Projects = () => {
             <div className="news-thumb">
               <a
                 target="_blank"
-                href="/projects/hawaii"
+                rel="noreferrer"
+                href="https://luckyuho.github.io/hawaii"
                 className="news-image-hover news-image-hover-warning"
               >
                 <img
@@ -317,7 +331,8 @@ const Projects = () => {
                 <p className="text-color">
                   <a
                     target="_blank"
-                    href="/projects/hawaii"
+                    rel="noreferrer"
+                    href="https://luckyuho.github.io/hawaii"
                     className="news-image-hover news-image-hover-warning text-success"
                   >
                     看看作品
@@ -336,6 +351,7 @@ const Projects = () => {
             <div className="news-thumb">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/luckyuho/OWL3D#readme"
                 className="news-image-hover news-image-hover-warning"
               >
@@ -357,6 +373,7 @@ const Projects = () => {
                 <p className="text-color">
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/luckyuho/OWL3D#readme"
                     className="news-image-hover news-image-hover-warning text-primary"
                   >

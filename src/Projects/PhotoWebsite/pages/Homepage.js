@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Search from "../components/Search";
 import Picture from "../components/Picture";
 
 const Homepage = () => {
   const [input, setInput] = useState("");
-  let [data, setData] = useState(null);
-  let [page, setPage] = useState(1);
-  let [currentSearch, setCurrtenSearch] = useState("");
+  const [data, setData] = useState(null);
+  const [page, setPage] = useState(1);
+  const [currentSearch, setCurrentSearch] = useState("");
   const auth = "563492ad6f91700001000001aef1c03756b94dc88c077e93631ec3ad";
   const initialURL = "https://api.pexels.com/v1/curated?page=1&per_page=15";
   const searchURL = `https://api.pexels.com/v1/search?query=${currentSearch}&per_page=15&page=1`;
-  let id = 1;
+  const id = useRef(null);
 
   // fetch picture from pexels api: https://www.pexels.com/zh-tw/api/
   const search = async (url) => {
@@ -55,26 +55,26 @@ const Homepage = () => {
   // }, []);
 
   useEffect(() => {
-    id = 1;
+    id.current = 1;
     if (currentSearch === "") {
       search(initialURL);
     } else {
       search(searchURL);
     }
-  }, [currentSearch]);
+  }, [currentSearch, searchURL]);
 
   useEffect(() => {
-    if (page != 1) {
-      id = 1;
+    if (page !== 1) {
+      id.current = 1;
       morepicture();
     }
-  }, [page]);
+  }, [page, morepicture]);
 
   return (
     <div style={{ minHeight: "100vh" }}>
       <Search
         search={() => {
-          setCurrtenSearch(input);
+          setCurrentSearch(input);
         }}
         setInput={setInput}
         input={input}

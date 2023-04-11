@@ -12,7 +12,7 @@ const HomePic = () => {
           I'm{" "}
           <></>
           <ReactTypingEffect
-            text={["YUHO.", "區塊鏈工程師.", "前端設計師."]}
+            text={["YUHO.", "後端工程師."]}
             speed={120}
             eraseSpeed={120}
             eraseDelay={2000}

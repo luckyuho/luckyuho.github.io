@@ -30,7 +30,7 @@ const TodoListApp = () => {
       let todoMonth = form.children[1].value;
       let todoDate = form.children[2].value;
 
-      if (todoText == "") {
+      if (todoText === "") {
         alert("Please enter todo affair.");
         return;
       }
@@ -96,7 +96,7 @@ const TodoListApp = () => {
           let myListArray = JSON.parse(myList);
 
           myListArray.forEach((item, index) => {
-            if (todoText == item.todoText) {
+            if (todoText === item.todoText) {
               myListArray.splice(index, 1);
               localStorage.setItem("list", JSON.stringify(myListArray));
             }
@@ -126,7 +126,7 @@ const TodoListApp = () => {
         } else if (Number(arr1[i].todoMonth) < Number(arr2[j].todoMonth)) {
           result.push(arr1[i]);
           i++;
-        } else if (Number(arr1[i].todoMonth) == Number(arr2[j].todoMonth)) {
+        } else if (Number(arr1[i].todoMonth) === Number(arr2[j].todoMonth)) {
           if (Number(arr1[i].todoDate) > Number(arr2[j].todoDate)) {
             result.push(arr2[j]);
             j++;

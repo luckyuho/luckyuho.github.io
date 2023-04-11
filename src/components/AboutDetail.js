@@ -24,6 +24,7 @@ const AboutDetail = () => {
                 Intern程式設計師 /{" "}
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.owl3d.ai/"
                   className="text-success"
                 >
@@ -87,6 +88,7 @@ const AboutDetail = () => {
                 透過中科院的經歷，決定重新審視自己的未來，也恰逢之前研究所的教授問詢讀博的意願，因此毅然決然的決定辭職中科院，並打算藉由教授的眼界與學校的課程重新規劃。在就學期間有幸聯絡到一個很厲害的人，也是
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.owl3d.ai/"
                   className="text-success"
                 >
@@ -95,6 +97,7 @@ const AboutDetail = () => {
                 的創辦人，做了一些與深度學習有關的工作，此外也因為這份工作修了學校資工所碩班的"電腦視覺與深度學習"課程，並且在這堂課程中獲得了96分的好成績，也對於機器視覺與深度學習有更近一步的了解。此外，也因為與
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.owl3d.ai/"
                   className="text-success"
                 >
@@ -124,6 +127,7 @@ const AboutDetail = () => {
                 Ng在Coursera所開設的機器學習課程，也是因為這門課程才讓我對深度學習有了基本的認識。後面透過不斷的大量參照paper及程式碼並自己編寫到最終的測試，才完成了一篇發布在
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://ieeexplore.ieee.org/document/8373485#citations"
                   className="text-success"
                 >

@@ -20,6 +20,7 @@ const Footer = () => {
               <a
                 href="https://themewagon.com/themes/nomad-force-free-bootstrap-5-html5-landing-page-template/"
                 target="_blank"
+                rel="noreferrer"
               >
                 ThemeWagon, TemplateMo, Nomad Force 2021
               </a>
@@ -29,19 +30,22 @@ const Footer = () => {
           <div className="col-lg-2 col-2 ms-auto">
             <ul className="social-icon">
               <li>
-                <a
+                <button
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.linkedin.com/in/yu-ho-tseng-859076164/"
                   className="social-icon-link bi-linkedin"
-                ></a>
+                ></button>
               </li>
 
               <li>
-                <a
+                <button               
                   target="_blank"
+                  rel="noreferrer"
+                  aria-hidden="true"
                   href="https://github.com/luckyuho"
                   className="social-icon-link bi-github"
-                ></a>
+                ></button>
               </li>
             </ul>
           </div>
