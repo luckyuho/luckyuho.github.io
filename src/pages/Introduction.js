@@ -18,8 +18,7 @@ const Introduction = () => {
 
           <div className="col-sm-7 col-12 mt-3">
             <h5 className="me-4 paragraph text-white">
-              I'm <strong className="theme-color">YUHO</strong>, a Blockchain &
-              Web Developer
+              I'm <strong className="theme-color">YUHO</strong>, a Backend Engineer
             </h5>
             <p className="me-4 text-justify text-color">
               我可以幫你測試與部署智能合約，也可以設計web3的前端網頁。我已完成過幾個作品，曾利用remix與javascript部署solidity的智能合約，在測試合約方面則使用過ganache與rinkeby作為測試環境。
@@ -61,12 +60,12 @@ const Introduction = () => {
             </ul>
             <div className="button-center pt-3">
               {/* <a href="/cv/YUHO-resume.pdf" download="YUHO Resume"> */}
-                <button
+                {/* <button
                   type="button"
                   className="btn rounded-pill btn-success px-5 py-2"
                 >
                   Download Resume
-                </button>
+                </button> */}
               {/* </a> */}
             </div>
           </div>

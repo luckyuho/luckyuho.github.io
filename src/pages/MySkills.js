@@ -18,20 +18,34 @@ const MySkills = () => {
                   </th>
                 </tr>
               </tbody>
+
+              <h6 className="text-white">專精</h6>
               <tbody>
                 <tr>
                   <th scope="row">
-                    <p className="text-white">-區塊鏈</p>
+                    <p className="text-white">- 後端語言</p>
                   </th>
                   <td>
-                    <p className="text-color">solidity, truffle</p>
+                    <p className="text-color">golang</p>
                   </td>
                 </tr>
               </tbody>
               <tbody>
                 <tr>
                   <th scope="row">
-                    <p className="text-white">-前端設計</p>
+                    <p className="text-white">- 資料庫</p>
+                  </th>
+                  <td>
+                    <p className="text-color">mysql</p>
+                  </td>
+                </tr>
+              </tbody>
+
+              <h6 className="text-white">熟悉</h6>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <p className="text-white">- 前端語言</p>
                   </th>
                   <td>
                     <p className="text-color">html, css, javascript, react</p>
@@ -41,46 +55,34 @@ const MySkills = () => {
               <tbody>
                 <tr>
                   <th scope="row">
-                    <p className="text-white">-後端資料庫</p>
+                    <p className="text-white">- 區塊鏈</p>
                   </th>
                   <td>
-                    <p className="text-color">mongodb</p>
+                    <p className="text-color">solidity</p>
                   </td>
                 </tr>
               </tbody>
               <tbody>
                 <tr>
                   <th scope="row">
-                    <p className="text-white">-其他工具</p>
+                    <p className="text-white">- 程式語言</p>
                   </th>
                   <td>
-                    <p className="text-color">
-                      git, node.js, nginx, npm, unity3d
-                    </p>
+                    <p className="text-color">python, c++, matlab, fortran</p>
                   </td>
                 </tr>
               </tbody>
               <tbody>
                 <tr>
                   <th scope="row">
-                    <p className="text-white">-深度學習</p>
+                    <p className="text-white">- 深度學習</p>
                   </th>
                   <td>
                     <p className="text-color">tensorflow, keras, pytorch</p>
                   </td>
                 </tr>
               </tbody>
-              <tbody>
-                <tr>
-                  <th scope="row">
-                    <p className="text-white">-程式語言</p>
-                  </th>
-                  <td>
-                    <p className="text-color">python, c++, matlab</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            </table>  
           </div>
           <div className="col-sm-5 col-12">
             <table className="table table-borderless">
@@ -95,14 +97,14 @@ const MySkills = () => {
                 </tr>
               </tbody>
               <tbody>
-                <tr>
-                  <th scope="row">
-                    <h5 className="text-white">多媒體設計類</h5>
-                  </th>
-                  <td>
-                    <p className="text-color">Figma, GIMP</p>
-                  </td>
-                </tr>
+              <tr>
+                <th scope="row">
+                  <h5 className="text-white">其他技能</h5>
+                </th>
+                <td>
+                  <p className="text-color">ducker, cicd, k8s</p>
+                </td>
+              </tr>
               </tbody>
             </table>
           </div>

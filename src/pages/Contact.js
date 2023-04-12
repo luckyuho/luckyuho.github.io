@@ -16,7 +16,7 @@ const Contact = () => {
         "service_ie2ayhr",
         "template_be4yhmq",
         form.current,
-        "LGcXk5aiidNnFQrJO"
+        "9za_1DkYhUSxBtDNg"
       )
       .then(
         (result) => {
@@ -121,3 +121,49 @@ const Contact = () => {
 };
 
 export default Contact;
+
+// import React, { useState } from 'react';
+// import emailjs from 'emailjs-com';
+
+// function Contact() {
+//   const [formData, setFormData] = useState({
+//     name: '',
+//     email: '',
+//     message: ''
+//   });
+
+//   const handleChange = (event) => {
+//     const { name, value } = event.target;
+//     setFormData(prevState => ({ ...prevState, [name]: value }));
+//   }
+
+//   const handleSubmit = (event) => {
+//     event.preventDefault();
+//     emailjs.sendForm('service_ie2ayhr', 'template_be4yhmq', event.target, 'LGcXk5aiidNnFQrJO')
+//       .then((result) => {
+//         console.log(result.text);
+//       }, (error) => {
+//         console.log(error.text);
+//       });
+//   }
+
+//   return (
+//     <form onSubmit={handleSubmit}>
+//       <label>
+//         Name:
+//         <input type="text" name="name" value={formData.name} onChange={handleChange} />
+//       </label>
+//       <label>
+//         Email:
+//         <input type="email" name="email" value={formData.email} onChange={handleChange} />
+//       </label>
+//       <label>
+//         Message:
+//         <textarea name="message" value={formData.message} onChange={handleChange} />
+//       </label>
+//       <button type="submit">Submit</button>
+//     </form>
+//   );
+// }
+
+// export default Contact;

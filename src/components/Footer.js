@@ -30,22 +30,22 @@ const Footer = () => {
           <div className="col-lg-2 col-2 ms-auto">
             <ul className="social-icon">
               <li>
-                <button
+                <a
                   target="_blank"
                   rel="noreferrer"
                   href="https://www.linkedin.com/in/yu-ho-tseng-859076164/"
                   className="social-icon-link bi-linkedin"
-                ></button>
+                ><p></p></a>
               </li>
 
               <li>
-                <button               
+                <a               
                   target="_blank"
                   rel="noreferrer"
                   aria-hidden="true"
                   href="https://github.com/luckyuho"
                   className="social-icon-link bi-github"
-                ></button>
+                ><p></p></a>
               </li>
             </ul>
           </div>
