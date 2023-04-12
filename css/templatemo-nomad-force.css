@@ -626,6 +626,8 @@ strong {
 
 .social-icon-link {
   color: rgba(255, 255, 255, 0.7);
+  background: none;
+  border: none;
   font-size: 2rem;
   display: inline-block;
   vertical-align: top;
@@ -754,3 +756,16 @@ strong {
   }
 }
 
+/*---------------------------------------
+  SELF DEFINITION               
+-----------------------------------------*/
+.text-box {
+  font-style:italic;
+  line-height:32px;
+  font-size:20px;
+  color:#fff;
+  background: #3F51B5;
+  margin:10px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 5px;
+}
