@@ -9,8 +9,74 @@ const AboutDetail = () => {
             <th scope="row">
               <h3 className="text-white about-title">Work Experience</h3>
             </th>
-            <td className="align-right">
-              <img className="about-img" src="images/about/owl3d.png" alt="" />
+              <td className="align-right">
+                <img className="about-img" src="images/about/owl3d.png" alt="" />
+              </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <p className="text-color">2022 - 2023</p>
+            </th>
+            <td>
+              <h6 className="text-white">
+                後端工程師 /{" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://star-bit.io/tw"
+                  className="text-success"
+                >
+                  STARBIT
+                </a>
+              </h6>
+              <p className="text-justify text-color">
+                這是我正式成為後端工程師的第一站，在裡面我從一路的新手小白，不斷地努力學習，對整個軟體領域有了一定程度的了解。剛進公司的前幾個月透過所學，幫助公司完成了雙重認證與核銷系統及一些CRUD的功能，後面隨著能力的增長，也開始嘗試串接第三方登入與line機器人，並且整合與微調chatGPT，導入line機器人作為客服機器人，讓公司的產品能更有效的即時幫助客戶，以及增加使用率。
+                此外，在工作閒暇之餘，我也不斷的學習提升自身實力，前期為了快速學習，參與了iThome舉辦的鐵人30天"
+                <a target="_blank"
+                  rel="noreferrer"
+                  href="https://ithelp.ithome.com.tw/users/20150797/ironman/5271" 
+                  className="text-success">
+                  30天學會Golang
+                </a>
+                "，此外也在Udemy學習關於
+                <a target="_blank"
+                  rel="noreferrer"
+                  href="https://www.udemy.com/course/sql-mysql/" 
+                  className="text-success">
+                  sql
+                </a>
+                、
+                <a target="_blank"
+                  rel="noreferrer"
+                  href="https://www.udemy.com/course/git-basic" 
+                  className="text-success">
+                  git
+                </a>
+                、
+                <a target="_blank"
+                  rel="noreferrer"
+                  href="https://www.udemy.com/course/docker-china" 
+                  className="text-success">
+                  docker
+                </a>
+                以及
+                <a target="_blank"
+                  rel="noreferrer"
+                  href="https://www.udemy.com/course/k8s-chinese" 
+                  className="text-success">
+                  k8s
+                </a>
+                等課程，快速累積了軟體業相關的基本知識。此外值得一提的是有在Udacity學習關於程式的基礎知識
+                <a target="_blank"
+                  rel="noreferrer"
+                  href="https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=19167921312_c_individuals&utm_term=143524481519&utm_keyword=data%20structures%20udacity_e&gclid=CjwKCAjwue6hBhBVEiwA9YTx8C0DSWhaz6u5ql-PzWWO9CP9Zz6o9VvilFI84pq83U8M_hucCbhwVhoCpzUQAvD_BwE" 
+                  className="text-success">
+                  Data Structures and Algorithms
+                </a>
+                ，在這堂課裡面學習到了很多程式碼的編寫方式以及關於效率問題，也有效的改善公司採用的演算法，部分演算法的時間複雜度從O(N^2)變成O(N*logN)。
+              </p>
             </td>
           </tr>
         </tbody>
@@ -49,7 +115,15 @@ const AboutDetail = () => {
             </th>
             <td>
               <h6 className="text-white">
-                軟體設計工程師 / 國家中山科學研究院
+                軟體設計工程師 / {" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.ncsist.org.tw/csistdup/main/Default.aspx"
+                  className="text-success"
+                >
+                  國家中山科學研究院
+                </a>
               </h6>
               <p className="text-justify text-color">
                 這是我研究所畢業與當兵後找的第一份工作，在裡面我才真的了解到目前國家軍武研發的整個過程。在裡面主要是學習飛彈控制的相關知識與研發及製作飛彈的流程，收集真實飛彈資料並加以分析，還有將開發用的Fortran程式碼改成比較容易閱讀架構的Matlab
@@ -68,7 +142,7 @@ const AboutDetail = () => {
               <img
                 className="about-img"
                 src="images/about/certificate.png"
-                alt=""
+                alt="test"
               />
             </td>
           </tr>
@@ -77,7 +151,7 @@ const AboutDetail = () => {
           <tr>
             <th scope="row">
               <p className="text-color">
-                2021 - <b className="text-white">Present</b>
+                2021 - 2022
               </p>
             </th>
             <td>
@@ -151,41 +225,6 @@ const AboutDetail = () => {
               </h6>
               <p className="text-justify text-color">
                 在大學時期，知識學習的層面主要與機械有關，如控制、靜力、動力、材力、熱力、流力、氣動力、電磁學、微積分與工程數學等，比較特別與飛機有關的課程則為飛機設計、航空發電機與飛行力學等課程，最終的班級排名為16/58，也算是有學到一些基本知識。而課外活動倒也參加了不少，比方有社會服務隊，這個社團主要是去偏鄉學校陪伴小朋友，藉著辦營隊的方式和他們交流，我也從參與社團的經歷一步步從社團的小隊員一路做到總負責人，從與校方接洽及安排活動流程及內容到最後的完美的舉辦營隊，最後不僅除了與小朋友的關係極好，甚至連與校長的關係也很不錯，我離開社團之後，社團也常與該校有合作關係。另外一個社團則是合唱團，因為在社團博覽會時，聽到那美麗的合聲而突然產生了觸動，便毅然決然的加入該社團，參與了各縣市大大小小的表演與比賽，從在上台的怯場，透過不斷的練習，慢慢轉變為享受舞台的心情，而在此其中我也從小小的社員晉身為男高音的leader，從原本學習者變成教導者，能回饋社團也是十分榮幸。
-              </p>
-            </td>
-          </tr>
-        </tbody>
-
-        <tbody id="skill">
-          <tr>
-            <th scope="row">
-              <h3 className="text-white about-title">Skills & Knowledge</h3>
-            </th>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th scope="row">
-              <p className="text-white">Skills</p>
-            </th>
-            <td>
-              <p className="text-justify text-color">
-                Solidity, Truffle, Html, Css, Javascript, React, Git, Mongodb,
-                Node.js Python, C++, Unity3D, Matlab, Linux, Tensorflow, Keras,
-                Pytorch
-              </p>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th scope="row">
-              <p className="text-white">Knowledge</p>
-            </th>
-            <td>
-              <p className="text-justify text-color">
-                Web3, Block chain, Smart contract, Front-end, Machine learning,
-                Deep learning, Computer vision
               </p>
             </td>
           </tr>

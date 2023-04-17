@@ -21,11 +21,19 @@ const Introduction = () => {
               I'm <strong className="theme-color">YUHO</strong>, a Backend Engineer
             </h5>
             <p className="me-4 text-justify text-color">
-              我可以幫你測試與部署智能合約，也可以設計web3的前端網頁。我已完成過幾個作品，曾利用remix與javascript部署solidity的智能合約，在測試合約方面則使用過ganache與rinkeby作為測試環境。
+              我是一個後端工程師，除了常見的後端開發技能外，還有開發line與整合chatgpt的經驗，完成專屬公司的line客服機器人，同時導入登入系統與核銷系統，有效拉近公司與客戶間的距離。
             </p>
             <p className="me-4 text-justify text-color">
-              利用React設計web3的前端網頁，亦有使用mongodb作為資料管理的經驗，可看看下面的作品
-              ，如果對我有興趣， 歡迎與我聯絡 。
+              下面的
+              <a
+                  rel="noreferrer"
+                  href="#projects"
+                  className="text-success"
+                >
+                  Portfolio
+                </a>
+              是我曾經做過的一些作品，除了後端以外的技術，也有一些基本前端與區塊鏈的概念，其中這個個人網站也是我的作品之一
+              ，如果有興趣，覺得我可以幫上一些忙， 歡迎與我聯絡 。
             </p>
           </div>
 
@@ -103,7 +111,7 @@ const Introduction = () => {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img
-                    src="images/introduction/presentation_.jpeg"
+                    src="images/introduction/presentation.jpeg"
                     className="img-fluid team-image"
                     alt=""
                   />

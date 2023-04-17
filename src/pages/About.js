@@ -1,7 +1,6 @@
 import React from "react";
 import AboutBrief from "../components/AboutBrief";
 import AboutDetail from "../components/AboutDetail";
-// import Menu from './Menu';
 
 const About = () => {
   return (
@@ -45,8 +44,6 @@ const About = () => {
                 Detail
               </button>
             </li>
-            {/* TabNavigationMenu({ items, activeItem, onItemClick }) */}
-            {/* <Menu/> */}
           </ul>
           <div className="tab-content" id="myTabContent">
             <div

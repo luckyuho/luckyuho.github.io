@@ -62,9 +62,9 @@
 
 .mfp-zoom {
   cursor: pointer;
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
-  cursor: zoom-in; }
+  cursor: -webkit-zoom-in1;
+  cursor: -moz-zoom-in1;
+  cursor: zoom-in1; }
 
 .mfp-auto-cursor .mfp-content {
   cursor: auto; }

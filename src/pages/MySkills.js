@@ -18,8 +18,13 @@ const MySkills = () => {
                   </th>
                 </tr>
               </tbody>
-
-              <h6 className="text-white">專精</h6>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <h6 className="text-white">專精</h6>
+                  </th>
+                </tr>
+              </tbody>
               <tbody>
                 <tr>
                   <th scope="row">
@@ -36,19 +41,25 @@ const MySkills = () => {
                     <p className="text-white">- 資料庫</p>
                   </th>
                   <td>
-                    <p className="text-color">mysql</p>
+                    <p className="text-color">sql</p>
                   </td>
                 </tr>
               </tbody>
 
-              <h6 className="text-white">熟悉</h6>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <h6 className="text-white">熟悉</h6>
+                  </th>
+                </tr>
+              </tbody>
               <tbody>
                 <tr>
                   <th scope="row">
                     <p className="text-white">- 前端語言</p>
                   </th>
                   <td>
-                    <p className="text-color">html, css, javascript, react</p>
+                    <p className="text-color">react, html, css, javascript</p>
                   </td>
                 </tr>
               </tbody>
@@ -97,16 +108,24 @@ const MySkills = () => {
                 </tr>
               </tbody>
               <tbody>
-              <tr>
-                <th scope="row">
-                  <h5 className="text-white">其他技能</h5>
-                </th>
-                <td>
-                  <p className="text-color">ducker, cicd, k8s</p>
-                </td>
-              </tr>
+                <tr>
+                  <th scope="row">
+                    <h5 className="text-white">其他技能</h5>
+                  </th>
+                  <td>
+                    <p className="text-color">docker, cicd, k8s</p>
+                  </td>
+                </tr>
               </tbody>
+              {/* <tbody> */}
+                
+              {/* </tbody> */}
             </table>
+            <img 
+                  src="images/myskill/data_structure_and_algorithm.jpeg"
+                  alt=""
+                  className="img-fluid news-image border-radius-5"
+                />
           </div>
         </div>
       </div>
