@@ -5,7 +5,7 @@ import AboutDetail from "../components/AboutDetail";
 const About = () => {
   return (
     <div className="section-padding bg-1" id="resume">
-      <div className="container" data-aos="fade-up">
+      <div className="container" data-aos="">
         <div className="row">
           <div className="col-12">
             <h2 className="mb-5 text-center text-white">About Me</h2>

@@ -3,7 +3,7 @@ import React from "react";
 const Introduction = () => {
   return (
     <div className="section-padding pb-0 bg-1" id="about">
-      <div className="container mb-5" data-aos="fade-up">
+      <div className="container mb-5" data-aos="">
         <div className="row">
           <div className="col-12">
             <h2 className="mb-5 text-center text-white">Know Me More</h2>
@@ -80,7 +80,7 @@ const Introduction = () => {
         </div>
       </div>
 
-      <div className="container-fluid pt-3" data-aos="fade-up">
+      <div className="container-fluid pt-3" data-aos="">
         <div className="row">
           <div className="col-lg-3 col-12 p-0">
             <img
