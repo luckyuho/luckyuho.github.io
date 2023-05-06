@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="section-padding bg-2" id="projects">
-      <div className="container" data-aos="">
+      <div className="container" data-aos="fade-up">
         <div className="row">
           <div className="col-12">
             <h2 className="mb-5 text-center text-white">My Work</h2>

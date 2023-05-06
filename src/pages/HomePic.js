@@ -5,10 +5,10 @@ const HomePic = () => {
   return (
     <section className="hero" id="home">
       <div className="heroText">
-        <h5 className="text-white" data-aos="">
+        <h5 className="text-white" data-aos="fade-up">
           Welcome
         </h5>
-        <h1 id="homepictitle" className="text-white mb-lg-4" data-aos="">
+        <h1 id="homepictitle" className="text-white mb-lg-4" data-aos="fade-up">
           I'm{" "}
           <></>
           <ReactTypingEffect
@@ -25,12 +25,12 @@ const HomePic = () => {
         <p
           id="homepic-p"
           className="text-secondary-white-color"
-          data-aos=""
+          data-aos="fade-up"
         >
           人生充滿可能性，不斷挑戰，超越自我，活出精彩！
         </p>
         <br />
-        <a href="#contactus" data-aos="">
+        <a href="#contactus" data-aos="fade-up">
           <button
             type="button"
             className="btn btn-outline-success btn-custom-lg"
