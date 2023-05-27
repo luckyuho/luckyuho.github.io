@@ -8,6 +8,48 @@ const Projects = () => {
           <div className="col-12">
             <h2 className="mb-5 text-center text-white">My Work</h2>
           </div>
+
+          {/* =====  ===== */}
+          <section className="col-lg-4 col-12 mb-5 mb-lg-0">
+            <div className="news-thumb">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/luckyuho/shop-backend#readme"
+                className="news-image-hover news-image-hover-warning"
+              >
+                <img
+                  src="images/projectSmallPic/shop.png"
+                  className="img-fluid large-news-image news-image border-radius-5"
+                  alt="basic web design"
+                  title="basic web design"
+                />
+              </a>
+
+              <div className="news-text-info">
+                <h5 className="text-white">微型電商-前端＆後端</h5>
+
+                <p className="text-justify text-color">
+                前端採用vue，後端使用golang。這是一個小型的電商系統，使用者可註冊登入，或透過第三方認證的快速登入，並選擇想要購買的商品，透過第三方支付購買商品。第三方登入串接github，第三方金流為藍新金流。登入後，會回傳 jwt 給前端，購買產品時會檢查jwt的合法性，並且建立訂單，確認該訂單收到支付後，會自動更新客戶訂單。
+                </p>
+                <p className="text-color">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/luckyuho/shop-backend#readme"
+                    className="news-image-hover news-image-hover-warning text-primary"
+                  >
+                    查看更多
+                  </a>
+                </p>
+                <span className="text-muted">
+                  <p className="text-color">May 27, 2023</p>
+                </span>
+              </div>
+            </div>
+            <br />
+          </section>
+
           {/* =====  ===== */}
           <section className="col-lg-4 col-12 mb-5 mb-lg-0">
             <div className="news-thumb">
@@ -86,6 +128,53 @@ const Projects = () => {
             <br />
           </section>
 
+          {/* ===== ===== */}
+          <section className="col-lg-4 col-12 mb-5 mb-lg-0">
+            <div className="news-thumb">
+              <a
+                href="#home"
+                className="news-image-hover news-image-hover-warning"
+              >
+                <img
+                  src="images/projectSmallPic/profile.png"
+                  className="img-fluid large-news-image news-image border-radius-5"
+                  alt="basic web design"
+                  title="basic web design"
+                />
+              </a>
+
+              <div className="news-text-info">
+                <h5 className="text-white">個人網頁設計 - 前端</h5>
+
+                <p className="text-justify text-color">
+                  我的個人介紹網站，同時也是在學習前端設計時給自己的作業，透過網路參考一些範例，大架構是
+                  <a
+                    href="https://themewagon.com/themes/nomad-force-free-bootstrap-5-html5-landing-page-template/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-success"
+                  >
+                    Nomad Force 2021
+                  </a>
+                  ，再改成React的語法，並稍做些改變，同時也學習AOS與bootstrap
+                  5並善加利用，作為一個檢定，同時也是一個完整的作品。
+                </p>
+                <p className="text-color">
+                  <a
+                    href="#home"
+                    className="news-image-hover news-image-hover-warning text-success"
+                  >
+                    看看作品
+                  </a>
+                </p>
+                <span className="text-muted">
+                  <p className="text-color">May 05, 2022</p>
+                </span>
+              </div>
+            </div>
+            <br />
+          </section>
+
           {/* =====  ===== */}
           <section className="col-lg-4 col-12 mb-5 mb-lg-0">
             <div className="news-thumb">
@@ -121,6 +210,48 @@ const Projects = () => {
                 </p>
                 <span className="text-muted">
                   <p className="text-color">Sep 12, 2022</p>
+                </span>
+              </div>
+            </div>
+            <br />
+          </section>
+
+          {/* =====  ===== */}
+          <section id="owl3dproject" className="col-lg-4 col-12 mb-5 mb-lg-0">
+            <div className="news-thumb">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/luckyuho/OWL3D#readme"
+                className="news-image-hover news-image-hover-warning"
+              >
+                <img
+                  src="images/projectSmallPic/kotlinApp.png"
+                  className="img-fluid large-news-image news-image border-radius-5"
+                  alt="basic web design"
+                  title="basic web design"
+                />
+              </a>
+
+              <div className="news-text-info">
+                <h5 className="text-white">Kotlin App - 前端</h5>
+
+                <p className="text-justify text-color">
+                  在MVVM架構下，利用kotlin開發的Android
+                  App，透過Retrofit2連接資料庫的API，並利用Paging3將資料顯示於畫面中，此外可透過Room將喜愛的項目存在離線暫存區。
+                </p>
+                <p className="text-color">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/luckyuho/OWL3D#readme"
+                    className="news-image-hover news-image-hover-warning text-primary"
+                  >
+                    查看更多
+                  </a>
+                </p>
+                <span className="text-muted">
+                  <p className="text-color">Oct 07, 2021</p>
                 </span>
               </div>
             </div>
@@ -210,7 +341,7 @@ const Projects = () => {
           </section>
 
           {/* =====  ===== */}
-          <section className="col-lg-4 col-12 mb-5 mb-lg-0">
+          {/* <section className="col-lg-4 col-12 mb-5 mb-lg-0">
             <div className="news-thumb">
               <a
                 target="_blank"
@@ -248,54 +379,7 @@ const Projects = () => {
               </div>
             </div>
             <br />
-          </section>
-
-          {/* ===== ===== */}
-          <section className="col-lg-4 col-12 mb-5 mb-lg-0">
-            <div className="news-thumb">
-              <a
-                href="#home"
-                className="news-image-hover news-image-hover-warning"
-              >
-                <img
-                  src="images/projectSmallPic/profile.png"
-                  className="img-fluid large-news-image news-image border-radius-5"
-                  alt="basic web design"
-                  title="basic web design"
-                />
-              </a>
-
-              <div className="news-text-info">
-                <h5 className="text-white">個人網頁設計 - 前端</h5>
-
-                <p className="text-justify text-color">
-                  我的個人介紹網站，同時也是在學習前端設計時給自己的作業，透過網路參考一些範例，大架構是
-                  <a
-                    href="https://themewagon.com/themes/nomad-force-free-bootstrap-5-html5-landing-page-template/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-success"
-                  >
-                    Nomad Force 2021
-                  </a>
-                  ，再改成React的語法，並稍做些改變，同時也學習AOS與bootstrap
-                  5並善加利用，作為一個檢定，同時也是一個完整的作品。
-                </p>
-                <p className="text-color">
-                  <a
-                    href="#home"
-                    className="news-image-hover news-image-hover-warning text-success"
-                  >
-                    看看作品
-                  </a>
-                </p>
-                <span className="text-muted">
-                  <p className="text-color">May 05, 2022</p>
-                </span>
-              </div>
-            </div>
-            <br />
-          </section>
+          </section> */}
 
           {/* =====  ===== */}
           <section className="col-lg-4 col-12 mb-5 mb-lg-0">
@@ -464,47 +548,6 @@ const Projects = () => {
             <br />
           </section>
 
-          {/* =====  ===== */}
-          <section id="owl3dproject" className="col-lg-4 col-12 mb-5 mb-lg-0">
-            <div className="news-thumb">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/luckyuho/OWL3D#readme"
-                className="news-image-hover news-image-hover-warning"
-              >
-                <img
-                  src="images/projectSmallPic/kotlinApp.png"
-                  className="img-fluid large-news-image news-image border-radius-5"
-                  alt="basic web design"
-                  title="basic web design"
-                />
-              </a>
-
-              <div className="news-text-info">
-                <h5 className="text-white">Kotlin App - 前端</h5>
-
-                <p className="text-justify text-color">
-                  在MVVM架構下，利用kotlin開發的Android
-                  App，透過Retrofit2連接資料庫的API，並利用Paging3將資料顯示於畫面中，此外可透過Room將喜愛的項目存在離線暫存區。
-                </p>
-                <p className="text-color">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/luckyuho/OWL3D#readme"
-                    className="news-image-hover news-image-hover-warning text-primary"
-                  >
-                    查看更多
-                  </a>
-                </p>
-                <span className="text-muted">
-                  <p className="text-color">Oct 07, 2021</p>
-                </span>
-              </div>
-            </div>
-            <br />
-          </section>
         </div>
       </div>
     </div>

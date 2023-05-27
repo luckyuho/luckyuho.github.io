@@ -59,7 +59,7 @@ const MySkills = () => {
                     <p className="text-white">- 前端語言</p>
                   </th>
                   <td>
-                    <p className="text-color">react, html, css, javascript</p>
+                    <p className="text-color">vue, react, html, css, javascript</p>
                   </td>
                 </tr>
               </tbody>

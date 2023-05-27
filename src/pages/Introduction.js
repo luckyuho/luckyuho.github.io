@@ -21,7 +21,7 @@ const Introduction = () => {
               I'm <strong className="theme-color">YUHO</strong>, a Backend Engineer
             </h5>
             <p className="me-4 text-justify text-color">
-              我是一個後端工程師，除了常見的後端開發技能外，還有開發line與整合chatgpt的經驗，完成專屬公司的line客服機器人，同時導入登入系統與核銷系統，有效拉近公司與客戶間的距離。
+              我是一個後端工程師，有在電商公司工作的經驗，有串接第三方登入與第三方支付經驗，還有開發line與整合chatgpt的經驗，完成專屬公司的line客服機器人，有效拉近公司與客戶間的距離。
             </p>
             <p className="me-4 text-justify text-color">
               下面的
